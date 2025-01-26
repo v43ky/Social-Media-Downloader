@@ -8,7 +8,7 @@ This program is designed to help you automate YouTube video uploads with advance
 - Add, edit, and manage templates for video titles, descriptions, and tags.
 - Assign specific videos to templates for automated uploads with predefined metadata.
 - Schedule video uploads at specific times with optional custom templates.
-- Track remaining daily quota and reset it automatically at 12 PM UAE time.
+- Track remaining daily quota and reset it automatically at user's local time.
 - Video preview feature for easy selection and scheduling.
 - Dynamic UI for managing templates and schedules with scrollable lists.
 
@@ -33,33 +33,38 @@ This program is designed to help you automate YouTube video uploads with advance
 
 Install dependencies:
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the program:
+   ```bash
+   pip install -r requirements.txt
+```
 
-bash
-Copy
-Edit
+## **Run the program:**
+   ```bash
 python youtube_automation.py
-How to Use
-1. Main Interface
-Templates: Create and manage templates for video titles, descriptions, and tags.
-Custom Scheduling: Schedule video uploads at specific times. Assign videos to templates for automated uploads with predefined metadata.
-Quota Tracker: Track your remaining daily quota, which resets at 12 PM UAE time.
-2. Creating and Using Templates
-Navigate to the Manage Templates section.
-Enter the title, description, and tags for your template.
-Save the template and assign specific videos if needed.
-Use the "Use" button to select a template for future uploads.
-3. Scheduling Video Uploads
-Select a video from your folder.
-Set the desired upload time in the format HH:MM:SS.
-Click Save Schedule. The video will upload automatically at the scheduled time.
-4. Quota Management
-Quota is deducted for each upload.
-The remaining quota is displayed in the main interface and resets daily.
+```
+
+---
+
+## **How to Use**
+
+1. **Main Interface**
+*Templates*: Create and manage templates for video titles, descriptions, and tags.
+*Custom Scheduling*: Schedule video uploads at specific times. Assign videos to templates for automated uploads with predefined metadata.
+*Quota Tracker*: Track your remaining daily quota, which resets at 12 PM UAE time.
+2. **Creating and Using Templates*
+-Navigate to the Manage Templates section.
+-Enter the title, description, and tags for your template.
+-Save the template and assign specific videos if needed.
+-Use the "Use" button to select a template for future uploads.
+3. **Scheduling Video Uploads**
+-Select a video from your folder.
+-Set the desired upload time in the format HH:MM:SS.
+-Click Save Schedule. The video will upload automatically at the scheduled time.
+4. **Quota Management**
+-Quota is deducted for each upload.
+-The remaining quota is displayed in the main interface and resets daily.
+
+---
+
 Screenshots
 Main Interface
 
@@ -68,14 +73,18 @@ Template Management
 Custom Scheduling
 
 Adding Images to the Repository
-Create a folder named images in your project directory.
-Add your screenshots (e.g., main_interface.png, template_management.png, custom_scheduling.png) to this folder.
-Update the paths in the README.md file under the Screenshots section to match your image names.
-Contributing
+
+---
+
+**Contributing**
 Contributions are welcome! Feel free to fork the repository, create a branch, and submit a pull request.
 
-License
+---
+
+**License**
 This project is licensed under the MIT License.
 
-Contact
-For questions or support, feel free to contact [your-email@example.com].
+---
+
+**Contact**
+For questions or support, feel free to contact [shootashortservice@gmail.com].
